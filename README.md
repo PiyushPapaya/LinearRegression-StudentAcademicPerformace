@@ -44,14 +44,14 @@ The **Notebook** has the following sections:
   
 - Predict results
   
-- Calculate mean absolute error
+- Calculate mean absolute error and R2 score
   
 - Finding out the weight and bias
 
 ---
 **Results:**
 
-The analysis shows a strong positive correlation between the traget variable (exam_score) and the features **hours_studied** and **sleep_hour** and our label, with correlation coefficients **1.55** and **1.02**, respectively . Also a mild positive relationship is noted between **attendance_percent** and **previous_scores** and the defined label with coefficients **0.1** and **0.17**. The **MAE** of the model trained on this dataset is **2.4**, indicating a successfully trained model.
+The analysis shows a strong positive correlation between the traget variable (exam_score) and the features **hours_studied** and **sleep_hour** and our label, with correlation coefficients **1.55** and **1.04**, respectively . Also a mild positive relationship is noted between **attendance_percent** and **previous_scores** and the defined label with coefficients **0.1** and **0.178**. The **MAE** of the model trained on this dataset is **2.4** and **R2 Score** being **0.814**, indicating a successfully trained model.
 
 ---
 
